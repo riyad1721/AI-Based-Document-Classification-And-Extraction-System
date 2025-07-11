@@ -8,7 +8,12 @@ import pdfplumber
 def extract_text_from_pdf(file_path):
     try:
         with pdfplumber.open(file_path) as pdf:
-            return pdf.pages[0].extract_text()
+            full_text = ""
+            for page in pdf.pages:
+                page_text = page.extract_text()
+                if page_text:
+                    full_text += page_text + "\f" 
+            return full_text.strip()
     except Exception as e:
         print(f"Error reading PDF: {str(e)}")
         return ""
