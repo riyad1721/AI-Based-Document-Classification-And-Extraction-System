@@ -43,16 +43,15 @@ HF_TOKEN=your_huggingface_token_here
 TESSERACT_PATH=C:\Program Files\Tesseract-OCR\tesseract.exe  # Windows example
 ```
 
-## 📸 Output Examples
+## 🖥️ Web Interface Outputs
 
-### Document Upload Interface
-![Upload Interface](output-images/1.jpg)
+![Web Interface ](output-images/1.png)
 
-### Classification Results
-![Classification Output](output-images/2.jpg)
+![Web Interface ](output-images/2.png)
 
-### Data Extraction & QA
-![Extracted Data](output-images/3.jpg)
+![Web Interface ](output-images/3.png)
+
+![Web Interface ](output-images/4.png)
 
 ## 🌟 Features Demonstrated
 ✔️ Automatic document classification  
